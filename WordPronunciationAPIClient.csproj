@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.WordPronunciation</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/wordpronunciation</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Word Pronunciation is a simple tool for getting the pronunciation of a word. It returns the pronunciation of the word provided.</Description>
+    <RepositoryUrl>https://github.com/apiverve/wordpronunciation-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>word pronunciation; word pronunciation api; word pronunciation tool; word pronunciation software; word pronunciation service; word pronunciation library; word pronunciation sdk; word pronunciation code; word pronunciation script; word pronunciation program; word pronunciation application; word pronunciation app; word pronunciation utility; word pronunciation helper; word pronunciation helper tool; word pronunciation helper software; word pronunciation helper service; word pronunciation helper library; word pronunciation helper sdk; word pronunciation helper code; word pronunciation helper script; word pronunciation helper program; word pronunciation helper application; word pronunciation helper app; word pronunciation helper utility; word pronunciation helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
