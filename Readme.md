@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new wordpronunciationQueryOptions {
+var queryOptions = new WordPronunciationQueryOptions {
   word = "hello"
 };
 ```
@@ -96,7 +96,8 @@ if(response.error != null) {
   "data": {
     "word": "hello",
     "pronounciation": "HH AH0 L OW1"
-  }
+  },
+  "code": 200
 }
 ```
 
